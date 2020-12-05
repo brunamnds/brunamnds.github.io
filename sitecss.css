@@ -1,0 +1,243 @@
+body{
+  background-color: #ffffff;
+  font-family:helvetica;
+}
+main{
+  background-color: gainsboro;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-color{
+  background: #ee350f;
+}
+
+.header_area{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu_area{
+  margin-top: 15px;
+}
+
+.menu_area nav a{
+  background-color: #ee350f;
+  color:white;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+.menu_area nav a:hover{
+  background-color: #ee350f !important;
+  font-size:110%;
+}
+.active{
+  background-color: #ee350f !important;
+}
+.logo{
+  width: 50%;
+  margin-top: 5px;
+}
+
+
+.container {
+  width: 80%;
+  position: relative;;
+}
+input {width: 100%;}
+input,  button {padding: 5px;}
+button {
+  position: revert;
+  top: 200;
+  right: auto;
+
+}
+
+#menu-toggle{
+  display:none;
+}
+.menu-icon{
+  display:none;
+}
+@media screen and (max-width:600px){
+  .header nav{
+    display: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#carousel li{
+  background-color:red;
+}
+.carousel-item .row{
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 50px;
+}
+.carousel-item #carousel_filme{
+  max-width: 100%; min-width: 100%; max-height: 100%; min-height: 100%;
+  border-radius: 20px;
+}
+.carousel-inner{
+  border-radius: 40px;
+
+}
+
+.carousel-item .carousel_lanc{
+  text-align: center; background-color:black; color:white;
+
+}
+.carousel-item #carousel-texto{
+  padding: 20px;
+}
+
+
+.desta-movie div{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.desta-movie div img{
+  max-width: 180px;
+  text-align: center;
+}
+
+.avaliacoes_text{
+  margin-top: 20px;
+}
+.comenta_avalia{
+  padding: 10px;
+  background-color: white;
+  margin: 1px;
+  border-radius: 10px;
+
+}
+.comenta_avalia{
+  align-items: center;
+  margin-bottom:10px ;
+
+}
+
+
+.comenta_avalia img{
+  max-width: 100%;
+  text-align: center;
+  border-radius: 50%;
+}
+.checked {
+  color: orange;
+}
+
+
+.color_entrevistas{
+  background-color: rgb(238, 53, 15);
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.entrevista_of{
+  text-align: center;
+  margin-bottom:10px ;
+  color: black;
+}
+.entrevista_of iframe{
+  max-width: 100%;
+  text-align: center;
+}
+
+
+.secao_texto{
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+
+#buttons_session h4{
+  display: inline;
+
+}
+#buttons_session p{
+  display: inline;
+}
+#buttons_session{
+  text-align: right;
+  color: #000000;
+}
+
+
+
+.novidad-img{
+  max-width: 100%;
+}
+.novidade2{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.novidad-latera{
+  border-bottom: 2px solid ;
+
+}
+
+
+.color_footer{
+  background: #ee350f;
+  color: #000000;
+
+}
+.area-footer{
+  padding: 20px;
+  text-align: center;
+
+}
+.area-footer img{
+  max-width: 100px;
+}
+#rodape{
+  margin-top: 20px;
+}
+
+.search-bar {
+  height: 49px;
+  background-color: #ffffff;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  position:relative;
+  width:230px
+}
+.search-bar .searchbutton {
+  position:absolute;
+  top:23%;
+  right:5px;
+}
+.sfield {
+  float: left;
+  margin: 5px 0 0 8px;
+  font: 8pt Verdana;
+  color: #888;
+  height: 20px;
+  line-height: 18px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  max-width: 125px
+}
+
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+/* fim do rodapÃ©*/

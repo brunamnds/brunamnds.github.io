@@ -1,0 +1,402 @@
+﻿
+                      <!doctype html>
+                      <html lang="pt-br">
+
+                      <head>
+                        <meta charset="utf-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+                          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+                        <link rel="stylesheet" href="sitecss.css">
+                        <title>Trabalho Bruna</title>
+                      </head>
+
+                      <body>
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <div class="header-color">
+                        <header class="container header">
+                          <div class="row">
+                            <div class="col-12 header_area">
+                              <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                                  <img src="imagens/logo.png" class="logo">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-8 col-lg-7 menu_area">
+                                  <nav class="nav nav-pills flex-column flex-sm-row">
+
+                                      <a class="flex-sm-fill text-sm-center nav-link active" href="#" >lançamentos</a>
+                                      <a class="flex-sm-fill text-sm-center nav-link" href="#">em destaque</a>
+                                      <a class="flex-sm-fill text-sm-center nav-link" href="#">avaliações</a>
+                                      <a class="flex-sm-fill text-sm-center nav-link" href="#">entrevistas & makingof</a>
+                                      <a class="flex-sm-fill text-sm-center nav-link" href="#">novidades</a>
+
+                                  </nav>
+                                </div>
+
+                                <div>
+
+                                  <input class="search-bar" type="text" id="search"> <button class="button4 fa fa-search" id="btn_Pesquisar" onclick="PesquisaFilmes"></button>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+                              </div>
+                            </div>
+                            <div></div></div>
+                        </header>
+                        </div>
+
+                        <main class="container main">
+                          <div class="row">
+                            <div class="col-12">
+
+
+
+                              <div class="row main_area">
+                                <div class="col-12">
+
+                                  <div id="carousel-site" class="carousel slide" data-ride="carousel">
+                                    <ol  class="carousel-indicators">
+                                      <li  data-target="#carousel-site" data-slide-to="0" class="active"></li>
+                                      <li  data-target="#carousel-site" data-slide-to="1"></li>
+                                      <li  data-target="#carousel-site" data-slide-to="2"></li>
+
+                                    </ol>
+                                    <div class="carousel-inner">
+
+                                      <div class="carousel-item active">
+                                        <div class="row">
+                                          <div class="col-12">
+                                            <h1 class="carousel_lanc" style="text-align: center; background-color:#ee350f; color:white;">Lançamentos</h1>
+                                          </div>
+                                          <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                            <iframe id="carousel_filme" src="https://www.youtube.com/embed/6kw1UVovByw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          </div>
+                                          <div id="carousel_texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                            <h4>007 - Operação Skyfall</h4>
+                                            <p><b>Sinopse: </b>O roubo de um HD contendo informações valiosas sobre a identidade de diversos agentes, infiltrados em células terroristas espalhadas ao redor do planeta, faz com que James Bond (Daniel Craig) parta atrás do ladrão. A perseguição segue pelas ruas de uma cidade na Turquia e acaba em cima de um trem.
+                                              Precisando impedir que a peça seja levada, M (Judi Dench) ordena que a agente Eve (Naomi Harris) dispare, mesmo sabendo que o tiro pode atingir Bond.
+                                            <br>
+                                            <p><b>Diretor: </b>Sam Mendes</p>
+                                            <p><b>Roteirista: </b>Neal Purvis</p>
+                                            <b>Estréia: </b>26 de outubro de 2012
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="carousel-item">
+                                        <div class="row">
+                                          <div class="col-12">
+                                            <h1 class="carousel_lanc" style="text-align: center; background-color:#ee350f; color:white;">Lançamentos</h1>
+                                          </div>
+                                          <div  class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                            <iframe id="carousel_filme" src="https://www.youtube.com/embed/CFc-AFrO2_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          </div>
+                                          <div id="carousel_texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                            <h4>O Protetor 2</h4>
+                                            <p><b>Sinopse:</b> Massachusetts, Estados Unidos. Robert McCall (Denzel Washington) agora trabalha como motorista, ajudando pessoas que enfrentam dificuldades decorrentes de injustiças. Quando sua amiga Susan Plummer (Melissa Leo) é morta durante a investigação de um assassinato na Bélgica, ele decide sair do anonimato e encontrar seu antigo parceiro, Dave (Pedro Pascal), no intuito de encontrar pistas sobre o autor do crime.
+                                              <br>
+                                            <p><b>Diretor: </b>Antoine Fuqua</p>
+                                            <p><b>Roteirista: </b>Richard Wenk</p>
+                                            <b>Estréia: </b>16 de agosto de 2018
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div  class="row" >
+                                          <div class="col-12">
+                                            <h1 class="carousel_lanc" style="text-align: center; background-color: #ee350f; color:white;">Lançamentos</h1>
+                                          </div>
+                                          <div  class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                            <iframe id="carousel_filme" src="https://www.youtube.com/embed/PoSCUsNQVtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                          <div id="carousel_text"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                            <h4>O Lobo de Wall Street</h4>
+                                            <p><strong>Sinopse:</strong> Durante seis meses, Jordan Belfort (Leonardo DiCaprio) trabalhou duro em uma corretora de Wall Street, seguindo os ensinamentos de seu mentor Mark Hanna (Matthew McConaughey). Quando finalmente consegue ser contratado como corretor da firma, acontece o Black Monday, que faz com que as bolsas de vários países caiam repentinamente. Sem emprego e bastante ambicioso, ele acaba trabalhando para uma empresa de fundo de quintal que lida com papéis de baixo valor, que não estão na bolsa de valores.
+                                            <br>
+                                            <p><b>Diretor: </b>Martin Scorsese</p>
+                                            <p><b>Roteirista: </b>Terence Winter</p>
+                                            <b>Estréia: </b>24 de janeiro de 2014
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                <!--Em destaque-->
+                                <div class="col-6">
+                                  <section class="secao_texto">
+                                    <h2 class="">Em destaque</h2>
+                                  </section>
+                                </div>
+                                <div class="col-6" >
+                                  <section class="secao_texto">
+                                    <ul class="nav nav-pills">
+
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categoria: Todos</a>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">Ação</a>
+                                          <a class="dropdown-item" href="#">Suspense</a>
+                                          <a class="dropdown-item" href="#">Terror</a>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </section>
+                                </div>
+                                <div class="col-12">
+                                  <section class="row desta-movie">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                      <img src="imagens/aranha.jpg">
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                      <img src="imagens/simps.jpg">
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                      <img src="imagens/escalas.jpg">
+                                    </div>
+
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                                      <img src="imagens/tropa.jpeg">
+                                    </div>
+                                  </section>
+                                </div>
+                                <div id="buttons_session"class="col-12">
+                                  <button type="button" class="btn btn-dark"><h4>+</h4><p>Carregar mais filmes</p></button>
+                                </div>
+
+
+                                <div class="col-12 avaliacoes_text">
+                                  <section class="secao_texto">
+                                    <h2 class="">Últimas Avaliações</h2>
+                                  </section>
+                                </div>
+                                <div class="col-12">
+                                  <section class="row comenta_avalia">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                      <div class="row ultimas_avaliacoes_comentarios">
+                                        <div class="col-4 ">
+                                          <img src="imagens/maria.jpg">
+                                        </div>
+                                        <div class="col-8 ">
+                                          <h3>Maria</h3>
+                                          <p><b>Os Vingadores:</b> Assista e se encante, ou não, com as loucuras geniais dessas 3 horas de filme, um aviso, você sairá da poltrona super feliz. </p></p>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <strong>06/02/2020</strong>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                      <div class="row ultimas_avaliacoes_comentarios">
+                                        <div class="col-4 ">
+                                          <img src="imagens/leonardo.jpg">
+                                        </div>
+                                        <div class="col-8 ">
+                                          <h3>Leonardo</h3>
+                                          <p><b>Busca Implacável:</b> Estou espantado com as críticas negativas do filme, parece até que assistiram outro filme. Achei o filme excelente, pra mim foi o melhor..</p>
+                                          <span class="fa fa-star checked "></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <span class="fa fa-star checked "></span>
+                                          <span class="fa fa-star "></span>
+                                          <strong>25/11/2012</strong>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                      <div class="row ultimas_avaliacoes_comentarios">
+                                        <div class="col-4">
+                                          <img src="imagens/joao.jpg">
+                                        </div>
+                                        <div class="col-8">
+                                          <h3>João</h3>
+                                          <p><b>Homem de Ferro:</b> O humor é bem dosado, em contraponto aos momentos mais tensos. Todos estes fatores contribuem para uma experiencia divertida.</p>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star checked"></span>
+                                          <span class="fa fa-star "></span>
+                                          <span class="fa fa-star "></span>
+                                          <strong>03/04/2005</strong>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                  </section>
+                                </div>
+
+                                <div id="buttons_session"class="col-12">
+                                  <button type="button" class="btn btn-dark"><h4>+</h4><p>Carregar mais avaliações</p></button>
+                                </div>
+
+                                <!--Entrevistas - Making of-->
+                                <section class="color_entrevistas">
+                                  <div class="col-12">
+                                    <section class="secao_texto">
+                                      <h2 class="">Entrevistas & Making of</h2>
+                                    </section>
+                                  </div>
+                                  <div class="col-12">
+                                    <section class="row entrevista_of">
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                                        <div class="row entrevista_of-editar">
+                                          <div class="col-12">
+                                            <iframe src="https://www.youtube.com/embed/h429LP5hP0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                          </div>
+                                          <div class="col-12 ">
+                                            <h4><b>Filme: </b> Homem Aranha</h4>
+                                            <p><b>Diretor:</b> Mark Webb</p>
+                                            <p><b>Roteiro:</b> James Vanderbilt &nbsp; <b>Estreia:</b> 2012</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                                        <div class="row entrevista_of-editar">
+                                          <div class="col-12">
+                                            <iframe src="https://www.youtube.com/embed/VfEQFb_SUwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                          </div>
+                                          <div class="col-12 ">
+                                              <h3>Filme: Coringa</h3>
+                                              <p><b>Diretor:</b> Bradley Cooper</p>
+                                              <p><b>Roteiro:</b> Scott Silver &nbsp; <b>Estreia:</b> 2019</p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                                        <div class="row entrevista_of-editar">
+                                          <div class="col-12">
+                                            <iframe src="https://www.youtube.com/embed/nUb2lFZz9po" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+                                          </div>
+                                          <div class="col-12 ">
+                                              <h3>Filme: Esquadrão Suicida </h3>
+                                              <p><b>Diretor:</b> David Ayer</p>
+                                              <p><b>Roteiro:</b> David Ayer &nbsp; <b>Estreia:</b> 2016</p>
+                                            </div>
+                                        </div>
+                                      </div>
+
+                                    </section>
+                                  </div>
+                                  <div id="buttons_session"class="col-12">
+                                    <button type="button" class="btn btn-dark"><h4>+</h4><p>Carregar mais filmes</p></button>
+                                  </div>
+                                </section>
+
+                                <!--novidades e sobre-->
+                                <div class="col-12 col-sm-12 col-md-8 col-lg-8  novidades">
+                                  <section class="secao_texto">
+                                    <h2 class="">Resultados</h2>
+                                  </section>
+
+                                  <div class="card-group" id="lista_filmes">
+                                    <div class="card" style="width: 18rem;">
+                                      <img src="https://source.unsplash.com/random/240x340?a" class="card-img-top"
+                                           alt="Filme A volta dos que não foram">
+                                      <div class="card-body">
+                                        <h5 class="card-title">A volta dos que não foram</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis
+                                          dignissimos dolores asperiores, tempore est quasi neque ab ipsam quo.</p>
+                                        <a href="#" class="btn btn-primary">Abrir filme</a>
+                                      </div>
+                                    </div>
+
+
+
+
+                                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+                                  <section class="secao_texto">
+                                    <h2 class="">Sobre</h2>
+                                    <p>1º trabalho da Disciplina Desenvovimento de interfaces Web, ministrada no 2º semestre do ano de 2020. "PUC MG - Mais que uma universidade..."</p>
+                                    <h2>Editorial</h2>
+
+                                    <section class="row">
+                                      <div class="col-2">
+                                        <img src="imagens/avatar.png" >
+                                      </div>
+                                      <div class="col-10">
+                                        <p><b>Redação:</b> Bruna</p>
+                                      </div>
+                                    </section>
+
+                                    <section class="row">
+                                      <div class="col-2">
+                                        <img src="imagens/avatar.png" >
+                                      </div>
+                                      <div class="col-10">
+                                        <p><b>Pesquisa:</b> Bruna</p>
+                                      </div>
+                                    </section>
+
+                                    <section class="row">
+                                      <div class="col-2">
+                                        <img src="imagens/avatar.png" >
+                                      </div>
+                                      <div class="col-10">
+                                        <p><b>Gerente Geral:</b> Bruna</p>
+                                      </div>
+                                    </section>
+
+                                    <h2>Redes Sociais:</h2>
+                                    <img src="imagens/face.png" alt="Face">
+                                    <img src="imagens/insta.png" alt="Insta">
+                                    <img src="imagens/tt.png" alt="TT">
+
+
+                                  </section>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                            </div></div></main>
+
+
+                        <div class="color_footer">
+                          <footer class="container footer">
+
+                            <div class="row">
+
+                                <div class="col-12 area-footer">
+                                  <div class="row">
+                                    <div id="rodape"class="col-12 col-sm-12 col-md-6 col-lg-8 ">
+                                      <p>Copyright &#169 2020 - Disciplina de Desenvolvimento de Interfaces Web <a href="http://pucminas.br" target="_blank">ICEI PUC Minas </a> </p>
+                                    </div>
+
+                                    <div id="position-logo-puc"class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                      <img src="imagens/icei_logo.png" >
+                                    </div>
+                                  </div>
+
+                                </div>
+
+                            </div>
+
+                          </footer>
+                        </div>
+
+
+
+                        <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+                        </script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+                                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+                        </script>
+                        <script src="app.js"></script>
+                      </body>
+
+                      </html>
